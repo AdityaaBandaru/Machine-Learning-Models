@@ -1,0 +1,11 @@
+Position,Level,Years_at_Company,Performance_Score,Salary
+Business Analyst,1,1.0,3.2,45000.0
+Junior Consultant,2,2.0,3.5,50000.0
+Senior Consultant,3,3.0,4.0,60000.0
+Manager,4,,4.3,80000.0
+Country Manager,5,5.0,4.7,110000.0
+Region Manager,6,6.0,,150000.0
+Partner,7,7.0,4.8,
+Senior Partner,8,8.0,5.0,300000.0
+C-level,9,,4.9,500000.0
+CEO,10,10.0,5.0,1000000.0

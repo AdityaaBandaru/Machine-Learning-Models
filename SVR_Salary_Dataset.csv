@@ -1,0 +1,11 @@
+Position,Position_Level,Salary,Years_of_Experience
+Intern,1,20000.0,0.5
+Junior Developer,2,30000.0,1.5
+Senior Developer,3,50000.0,3.0
+Lead Developer,4,,5.0
+Manager,5,90000.0,7.0
+Senior Manager,6,110000.0,9.0
+Director,7,150000.0,12.0
+Vice President,8,,15.0
+CTO,9,250000.0,18.0
+CEO,10,300000.0,22.0
