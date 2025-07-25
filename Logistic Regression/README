@@ -1,1 +1,37 @@
+🎯 Purchase Prediction using Logistic Regression
+(NOTE: To check the results implement the code in google colab or in the software of your choice)
+This project demonstrates a simple yet effective implementation of a Logistic Regression model to predict whether a user will purchase a product based on their age and estimated salary, using the Social_Network_Ads dataset.
 
+📂 Dataset Overview
+
+Rows: 400
+Features:
+Age (18–60 years)
+Estimated Salary (15k–150k)
+Purchased (0 = No, 1 = Yes)
+🛠️ Technologies & Libraries
+
+Python
+pandas
+numpy
+matplotlib
+scikit-learn
+⚙️ Workflow
+
+Data Preprocessing
+
+Feature scaling using StandardScaler
+Train-test split (25% training)
+Modeling
+
+Logistic Regression with scikit-learn
+Evaluation
+
+Confusion matrix
+Accuracy score
+Prediction visualization for training and test sets
+📊 Results
+
+✅ Achieved high classification accuracy on test data
+✅ Model successfully predicts user behavior based on two simple variables
+✅ Decision boundaries clearly separate classes visually
