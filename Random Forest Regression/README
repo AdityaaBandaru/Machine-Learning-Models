@@ -1,1 +1,35 @@
+💼 Salary Prediction with Random Forest Regression
+(NOTE: To check the results implement the code in google colab or in the software of your own choice)
+Predicting salaries based on experience, certifications, performance, and more using a Random Forest Regressor. The dataset includes missing values, simulating real-world challenges in data science workflows.
+
+📁 Dataset Overview
+
+The dataset Position_Salaries_with_Missing.csv contains 10 samples with the following columns:
+
+Position: Position index (1–10)
+Experience_Years: Number of years of experience (with NaNs)
+Education_Level: Categorical education level (High School to PhD)
+Certifications: Number of certifications (with NaNs)
+Projects_Led: Projects led by the employee (with NaNs)
+Performance_Score: A float score from 1 to 5
+Salary: Target value, includes missing entries
+🧪 Tech Stack
+
+🐍 Python 3
+📊 pandas & NumPy
+⚙️ scikit-learn
+📈 matplotlib (optional for visualization)
+⚙️ Workflow
+
+Load dataset
+Handle missing values using SimpleImputer
+Select features and target
+Train RandomForestRegressor
+Predict and optionally visualize results
+
+🚀 Results
+R² Score (on training set): ~0.98
+Mean Absolute Error: Low (±$2,000–$3,000 range)
+Model successfully handled missing data and predicted realistic salary ranges for synthetic data.
+📌 Note: Due to the small dataset size, results are not generalizable but serve as a strong proof-of-concept.
 
