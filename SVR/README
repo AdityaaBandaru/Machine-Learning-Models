@@ -1,1 +1,22 @@
+💼 SVR Salary Prediction
+(NOTE: To check the results implement the code in google colab or the software of your choice)
+This project implements a Support Vector Regression (SVR) model to predict salaries based on job position level and experience. It uses a dataset with missing salary values and applies preprocessing steps like imputation and feature scaling.
+
+📂 Dataset
+
+A sample employee dataset with the following columns:
+
+Position : Job title (e.g., Intern, CEO)
+Position_Level : Numerical label for role seniority
+Years_of_Experience : Total years in the role
+Salary : Target variable (annual income)
+Some rows contain missing salary values.
+⚙️ Features
+
+🧼 Imputation of missing salary values (mean strategy)
+📊 Standard Scaling of input and output variables
+🧠 Support Vector Regression with RBF kernel
+📈 Prediction of salary for new position levels
+🖼️ Graphical visualization of the SVR curve vs actual salaries
+
 
