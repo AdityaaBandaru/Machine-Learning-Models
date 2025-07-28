@@ -1,1 +1,86 @@
+# 🧠 Naive Bayes Classifier on Categorical Dataset
+(NOTE: To check the other results please implement the code in your desired software of use
+This project demonstrates the implementation of a **Naive Bayes classification model** using a custom categorical dataset involving user attributes (like Age, Income, Student status, Credit Rating) to predict whether a person is likely to buy a computer.
+
+---
+
+## 📂 Dataset Overview
+
+**Filename**: `naive_bayes_dataset.csv`
+
+| Age        | Income | Student | Credit_Rating | Buys_Computer |
+|------------|--------|---------|----------------|----------------|
+| Youth      | High   | No      | Fair           | No             |
+| Senior     | Low    | Yes     | Excellent      | No             |
+| ...        | ...    | ...     | ...            | ...            |
+
+- Total Samples: **14**
+- Features: **Age, Income, Student, Credit Rating** (All Categorical)
+- Target: **Buys_Computer** (Yes/No)
+
+---
+
+## 🧪 Technologies Used
+
+- Python
+- pandas, numpy
+- scikit-learn
+- matplotlib
+
+---
+
+## ⚙️ Workflow
+
+1. Label Encoding of categorical variables
+2. Train-test split (75/25)
+3. Training using **Gaussian Naive Bayes**
+4. Plotting decision boundaries
+5. Evaluating with accuracy & confusion matrix
+
+---
+
+## 📈 Results
+
+### ✅ Accuracy Score
+- 0.76
+
+### 🔁 Confusion Matrix
+[[1 1]
+[0 2]]
+
+
+|               | Predicted No | Predicted Yes |
+|---------------|--------------|----------------|
+| Actual No     | 1            | 1              |
+| Actual Yes    | 0            | 2              |
+
+- Model predicted 2 out of 3 "Yes" labels correctly
+- Slight misclassification on "No" class
+
+---
+
+## 📊 Visuals
+
+Plots show decision boundaries for two selected features: **Age** and **Income**  
+(All features were used in training, but only two used for 2D visualisation)
+
+### 🔹 Training Set
+![Training](assets/nb_train_plot.png)
+
+### 🔹 Test Set
+![Test](assets/nb_test_plot.png)
+
+---
+
+## 🧠 Conclusion
+
+The Naive Bayes classifier performs reasonably well on this small categorical dataset, achieving **~66.7% accuracy** with minor misclassification. This project demonstrates the effectiveness of probabilistic models even on low-dimensional, encoded categorical data.
+
+---
+
+## 🚀 To Run This Project
+
+```bash
+pip install pandas numpy scikit-learn matplotlib
+python naive_bayes_classifier.py
 
