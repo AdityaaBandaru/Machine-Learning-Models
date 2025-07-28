@@ -1,5 +1,5 @@
 # 🧠 Naive Bayes Classifier on Categorical Dataset
-(NOTE: To check the other results please implement the code in your desired software of use
+(NOTE: To check the other results please implement the code in your desired software of use)
 This project demonstrates the implementation of a **Naive Bayes classification model** using a custom categorical dataset involving user attributes (like Age, Income, Student status, Credit Rating) to predict whether a person is likely to buy a computer.
 
 ---
