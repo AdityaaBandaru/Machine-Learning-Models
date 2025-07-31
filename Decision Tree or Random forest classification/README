@@ -1,1 +1,67 @@
+# 🧠 Consumer Purchase Prediction using Decision Tree & Random Forest
+(NOTE: To check the other results implement the code in your desired software)
+This project explores the use of **Decision Tree** and **Random Forest** classification algorithms to predict whether a person is likely to **buy** a product based on their demographic and personal information.
+
+## 📊 Dataset Overview
+
+The dataset is synthetically generated and contains the following features:
+
+- **Age**: Person's age (18–60)
+- **Income**: Annual income (20,000–120,000)
+- **EducationLevel**: Categorical (High School, Bachelors, Masters, PhD)
+- **MaritalStatus**: Categorical (Single, Married, Divorced)
+- **OwnsHouse**: Binary (Yes/No)
+- **Target**: Binary (Buy / Not Buy)
+
+> ✅ Categorical values were label-encoded for model training.
+
+---
+
+## 🔍 Project Goals
+
+- Compare performance of **Decision Tree** and **Random Forest** classifiers.
+- Identify which model gives better predictive performance for the given dataset.
+
+---
+
+## ⚙️ Models Used
+
+### 1. Decision Tree Classifier 🌳
+
+- Trained on the encoded dataset
+- Simple and interpretable model
+- **Accuracy Achieved**: `0.48`
+
+### 2. Random Forest Classifier 🌲🌲🌲
+
+- Ensemble method combining multiple decision trees
+- Helps reduce overfitting and improve generalization
+- **Accuracy Achieved**: `0.62`
+
+---
+
+## 🏁 Conclusion
+
+Although Decision Trees are easy to interpret and visualize, they often suffer from **overfitting**. On the other hand, the **Random Forest** classifier demonstrated significantly better accuracy due to its ensemble approach, making it the preferred choice for this task.
+
+---
+
+## 📁 Files Included
+
+- `classification_dataset.csv` – Cleaned and encoded dataset
+- `decision_tree_model.py` – Model implementation and evaluation for Decision Tree
+- `random_forest_model.py` – Model implementation and evaluation for Random Forest
+- `README.md` – Project documentation
+
+---
+
+## 🚀 Future Improvements
+
+- Hyperparameter tuning with GridSearchCV
+- Cross-validation for better generalization
+- Adding more real-world features (e.g., spending habits, location, etc.)
+
+---
+
+
 
