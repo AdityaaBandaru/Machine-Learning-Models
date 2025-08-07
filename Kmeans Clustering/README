@@ -1,1 +1,80 @@
+# 🧠 Customer Segmentation using KMeans Clustering
 
+This project demonstrates how to apply **KMeans clustering** to a synthetic customer dataset for identifying distinct groups based on income, spending behavior, savings, and debt.  
+The goal is to segment customers into clusters that can be targeted with different strategies (e.g., marketing, retention, offers).
+
+---
+
+## 📁 Dataset
+
+The dataset contains the following features for 20 customers:
+
+- `Age`
+- `Annual Income (k$)`
+- `Spending Score (1-100)`
+- `Savings (k$)`
+- `Debt (k$)`
+
+CSV file: [`customer_data.csv`](./customer_data.csv)
+
+---
+
+## ⚙️ Tools & Libraries
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn (`KMeans`, `PCA`, `StandardScaler`)
+- Matplotlib
+
+---
+
+## 🔍 Methodology
+
+1. **Data Preprocessing**
+   - Loaded data using `pandas`
+   - Selected relevant numerical features for clustering
+   - Scaled the data using `StandardScaler`
+
+2. **Elbow Method**
+   - Determined optimal number of clusters by plotting WCSS
+   - Best number of clusters: **3**
+
+3. **KMeans Clustering**
+   - Performed KMeans with 3 clusters
+   - Predicted cluster assignments for all customers
+
+4. **Dimensionality Reduction**
+   - Applied PCA to reduce from 4D to 2D for visualization
+
+5. **Visualization**
+   - Scatter plot of customers in PCA space
+   - Cluster centroids highlighted
+
+---
+
+## 📊 Results
+(NOTE: Implement the code in your software of choice to see the results)
+- **Optimal Clusters**: 3 (Based on Elbow Method)
+- **Visualization**:
+  - Each color represents a different customer segment
+  - Yellow points mark the centroids of clusters
+
+
+---
+
+## 🧠 Learnings
+
+- The elbow method is useful but subjective — always verify with metrics like the silhouette score.
+- Feature scaling significantly improves clustering quality.
+- PCA helps visualize multi-dimensional clusters in 2D.
+
+---
+
+## 🚀 Future Improvements
+
+- Add silhouette score to validate clustering quality
+- Use other clustering algorithms (DBSCAN, Agglomerative)
+- Apply the model to a real-world customer dataset
+
+---
