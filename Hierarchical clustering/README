@@ -1,1 +1,48 @@
+# Hierarchical Clustering Project  
+(NOTE: Implement the code in your desired software to see the results)
+This repository demonstrates the implementation of **Hierarchical Clustering (Agglomerative Clustering)** on a synthetic dataset with multiple features. The project covers data preparation, dendrogram visualization, clustering, and cluster visualization using both raw features and dimensionality reduction techniques.  
+
+---
+
+## 📂 Dataset  
+- **File:** `hierarchical_clustering_dataset.csv`  
+- **Samples:** 300  
+- **Features:** 4 numerical features (`Feature1`, `Feature2`, `Feature3`, `Feature4`)  
+- **TrueCluster (optional):** Provided only for validation and evaluation purposes. Not used in clustering.  
+
+---
+
+## 🔑 Methodology  
+1. **Data Preparation**  
+   - Load dataset  
+   - Select feature columns for clustering  
+
+2. **Dendrogram Analysis**  
+   - Construct dendrogram using Ward’s linkage  
+   - Determine optimal number of clusters  
+
+3. **Agglomerative Clustering**  
+   - Apply hierarchical clustering with Euclidean distance and Ward linkage  
+   - Assign cluster labels to each observation  
+
+4. **Visualization**  
+   - Plot clusters using selected features (2D)  
+   - Perform PCA for dimensionality reduction to visualize all features in 2D  
+
+---
+
+📊 Results
+   - The dendrogram clearly indicated 5 clusters, matching the underlying dataset structure.
+   - Agglomerative clustering successfully grouped points into meaningful clusters.
+   - Visualization in both raw feature space and PCA-reduced space confirms distinct separation between clusters.
+   - Predicted clusters align closely with the TrueCluster labels provided in the dataset.
+   
+🛠️ Requirements
+pandas
+numpy
+matplotlib
+scikit-learn
+scipy
+
+
 
