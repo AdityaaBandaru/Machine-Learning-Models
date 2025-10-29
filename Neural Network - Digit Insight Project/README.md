@@ -138,7 +138,7 @@ digit_insight_studio/
 
 ---
 ## 📜 License
-MIT License © 2025 Adityaa Bandaruu
+MIT License © 2025 Adityaa Bandaru
 
 ---
 ## 🙌 Acknowledgments
