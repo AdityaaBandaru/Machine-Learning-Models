@@ -2,7 +2,6 @@
 
 Interactive playground for handwriting intelligence. Digit Insight Studio pairs a fast CNN classifier, a generative VAE, Grad-CAM explainability, and adaptive segmentation so you can sketch any multi-digit number and instantly explore model predictions, saliency maps, and creative variations.
 
-https://github.com/adityaabandaru/digit-insight-studio/assets/demo.gif
 
 ---
 ## ✨ Highlights
