@@ -1,0 +1,18 @@
+data:
+  batch_size: 128
+  num_workers: 2
+  augment: true
+  validation_split: 0.1
+training:
+  epochs: 5
+  lr: 0.001
+  weight_decay: 1.0e-4
+  model_output: checkpoints/classifier.pth
+  device: auto
+  seed: 1337
+model:
+  dropout: 0.3
+  hidden_channels: [32, 64, 128]
+logging:
+  save_metrics: results/classifier_metrics.json
+  save_curve: results/classifier_loss.png

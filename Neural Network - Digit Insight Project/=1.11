@@ -1,0 +1,7 @@
+Collecting scipy
+  Downloading scipy-1.16.3-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Requirement already satisfied: numpy<2.6,>=1.25.2 in ./.venv/lib/python3.13/site-packages (from scipy) (2.3.4)
+Downloading scipy-1.16.3-cp313-cp313-macosx_14_0_arm64.whl (20.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 22.5 MB/s  0:00:00
+Installing collected packages: scipy
+Successfully installed scipy-1.16.3
